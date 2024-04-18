@@ -1,0 +1,68 @@
+.users__wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.users__card {
+  width: 280px;
+  padding: 20px;
+  box-shadow: 0 0 8px #0002, 15px 15px 15px #0001;
+  line-height: 1.6;
+  border-radius: 10px;
+}
+.users__card img {
+  width: 100%;
+}
+.users__card h2 {
+  color: dodgerblue;
+}
+.users__card button {
+  padding: 6px 20px;
+  background: crimson;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 16px;
+}
+.users__card button:active {
+  opacity: 0.7;
+}
+.close {
+  display: none;
+}
+.show {
+  position: absolute;
+  top: 40%;
+  left: 40%;
+  width: 400px;
+  height: 300px;
+  background-color: gray;
+}
+
+.show input {
+  width: 90%;
+  margin: 0 auto;
+  display: block;
+  padding: 15px;
+  outline: none;
+  margin-top: 10px;
+}
+
+.show h3 {
+  font-size: 30px;
+  text-align: center;
+  padding-top: 20px;
+  color: white;
+}
+
+.btn5 {
+  margin-left: 30px;
+}
+
+.btn6 {
+  margin-left: 20px;
+}
+.btn7 {
+  margin-left: 30px;
+}
